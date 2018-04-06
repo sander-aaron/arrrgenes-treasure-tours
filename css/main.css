@@ -22,13 +22,14 @@ html {
   text-align: center;
 }
 
+.nav a:focus {
+  outline-color: #fff;
+  background-color: #fff;
+}
+
 .nav a {
   color: #fff;
   text-decoration: none;
-}
-
-.nav a:focus {
-  outline: #fff;
 }
 
 .nav a span {
