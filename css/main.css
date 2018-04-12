@@ -24,7 +24,7 @@ html {
 
 .nav a:focus {
   outline-color: #fff;
-  background-color: #fff;
+  background-color: #000;
 }
 
 .nav a {
@@ -44,7 +44,7 @@ html {
 .banner {
   min-height: 16em;
   color: #fff;
-  background-color: #522806;
+  background-color: #704c2a;
 }
 
 .card {
@@ -62,7 +62,7 @@ html {
 .btn-light:hover,
 .btn-light:focus {
   background-color: #522806;
-  border-color: #522806;
+  outline-color: #fff;
 }
 
 .btn-banner {
@@ -72,9 +72,9 @@ html {
 
 .btn-banner:hover,
 .btn-banner:focus {
-  background-color: #bea59b;
-  border-color: #fff;
-  color: #522806;
+  background-color: #522806;
+  border-right: #522806;
+  outline-color: #fff;
 }
 
 .footer {
